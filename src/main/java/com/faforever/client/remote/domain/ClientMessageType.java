@@ -24,7 +24,8 @@ public enum ClientMessageType {
   KICK_PLAYER_FROM_PARTY("kick_player_from_party"),
   READY_PARTY("ready_party"),
   UNREADY_PARTY("unready_party"),
-  LEAVE_PARTY("leave_party");
+  LEAVE_PARTY("leave_party"),
+  SET_PARTY_FACTIONS("set_party_factions");
 
   private static Map<String, ClientMessageType> fromString;
 
